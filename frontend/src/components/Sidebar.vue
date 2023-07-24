@@ -92,7 +92,7 @@
       {{ usage.used }} of {{ usage.total }} used
     </div>
 
-    <p class="credits">
+    <!-- <p class="credits">
       <span>
         <span v-if="disableExternal">File Browser</span>
         <a
@@ -107,7 +107,7 @@
       <span>
         <a @click="help">{{ $t("sidebar.help") }}</a>
       </span>
-    </p>
+    </p> -->
   </nav>
 </template>
 
